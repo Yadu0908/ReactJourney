@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import Test from "./new"
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
-      <h1>This is my first React Project</h1>
+      
+    <Test/>
       )
 }
 
