@@ -12,13 +12,11 @@ function App() {
 
     // counter+=1
     // console.log(counter);
+
     if(counter < 20)
       setCounter(counter+1)
     }
   
-
-
-
   const removeValue = ()=>{
 
     if(counter > 0){
@@ -26,6 +24,11 @@ function App() {
       setCounter(counter-1)
     }
   }
+
+
+
+
+  let [count, setCount] = useState(0)     // using this for useEffect
 
 
   return (
