@@ -20,7 +20,7 @@ function App() {
 
   return (
     <>
-      <h4 className='bg-green-500 text-black p-4 rounded-xl font-medium mb-3 '>Tailwind test</h4>
+      <h4 className='bg-green-500 text-black p-4 rounded-xl font-medium mb-3 ' >Tailwind test</h4>
       <Card chnnel= "Yadu" newObject= {newVar} newArray= {newArr} btnText= "Click me" />
       <Card btnText= "Visit me here"/>
       <Card name = "Yadu"/>
