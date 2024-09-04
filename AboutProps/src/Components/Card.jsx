@@ -11,18 +11,25 @@ function Card(props) {
     buttonText = "Nothing pass";
   }
 
+  let nameArray = ["Amit", "Ankit", "Ajay", "Anshul"];
 
   let userName;
-
-  if(props.name !== ""){
+  let uname;
+  if(props.name && props.name.trim() !== ""){
 
     userName = props.name
   }
 
   else{
 
-    userName= "Us"
-  }
+    for(let i= 0; i< nameArray.length; i++){
+
+      userName= nameArray[i];
+      break
+    }
+
+  } 
+
 
   return (
     <div className="w-[300px] rounded-md border">

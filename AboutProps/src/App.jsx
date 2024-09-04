@@ -13,17 +13,15 @@ function App() {
   }
 
   let newArr= [1,2,3,,4,5]
-
-  let nameArray = ["Amit", "Ankit", "Ajay", "Anshul"]
-
+ 
 
 
   return (
     <>
       <h4 className='bg-green-500 text-black p-4 rounded-xl font-medium mb-3 ' >Tailwind test</h4>
-      <Card chnnel= "Yadu" newObject= {newVar} newArray= {newArr} btnText= "Click me" />
-      <Card btnText= "Visit me here"/>
       <Card name = "Yadu"/>
+      <Card chnnel= "Yadu" newObject= {newVar} newArray= {newArr} btnText= "Click me" />
+      <Card btnText= "Visit me here" name= ""/>
       <Card />
       <Card />
     </>
