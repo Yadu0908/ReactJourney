@@ -22,3 +22,6 @@ On the second day, I created the `Home.jsx` component, focusing on styling and t
 
 - **React Icons**:  
   I explored how to implement icons using the `react-icons` library. After installing it via the terminal, I was able to seamlessly integrate a variety of icons into my project, improving the UI's look and feel.
+
+- **Typing effect on the page**: 
+  For, Creating the cool typing effect on the home page, I used `typed` liberary. Which is easy to implemnent into the project and after exploring some doct i feagured out how to use this lib. And added this cool effect on my page.
