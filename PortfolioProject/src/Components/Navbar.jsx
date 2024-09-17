@@ -66,6 +66,7 @@ function Navbar() {
 
                 </ul>
             </div>
+            <hr className="border-1 border-red-50"/>
         </div>
     );
 }

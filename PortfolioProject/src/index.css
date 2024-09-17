@@ -8,3 +8,8 @@ body{
 
     font-family: "Poopins", sans-serif;
 }
+
+html{
+
+    scroll-behavior: smooth;
+}

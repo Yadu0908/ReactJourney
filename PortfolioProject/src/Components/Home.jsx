@@ -84,7 +84,7 @@ function Home() {
 
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-16">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10">
         <div className="grid grid-cols-2">
           <div className="mt-24">
             <p className="text-3xl my-3">
