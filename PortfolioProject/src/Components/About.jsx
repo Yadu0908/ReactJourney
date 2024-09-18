@@ -139,7 +139,7 @@ Whether it's tackling a complex problem or fine-tuning the front-end experience,
         {divArray.map(({ id, heading, text, image }) => (
           <div
             key={id}
-            className="relative group h-80 overflow-hidden rounded-lg shadow-lg"
+            className="relative group h-80 overflow-hidden rounded-lg shadow-2xl"
           >
             {/* Image Layer with Lazy Loading and Object Contain */}
             <img

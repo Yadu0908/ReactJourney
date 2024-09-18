@@ -50,4 +50,4 @@ On the second day, I created the `Home.jsx` component, focusing on styling and t
 
   An, another concept i learned was, we can add my list item into my array by using `fregment` in my `jsx`. 
 
----
+---![alt text](image.png)
