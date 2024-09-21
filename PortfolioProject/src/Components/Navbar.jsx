@@ -1,5 +1,6 @@
 import React from "react";
 import pic from "../assets/Images/favicon.png";
+import {Link} from "react-scroll"
 
 function Navbar() {
 
@@ -22,13 +23,13 @@ function Navbar() {
         {
 
             id: 3,
-            text: "Services",
+            text: "Project",
             link: "Services.jsx"
         },
 
         {
             id: 4, 
-            text: "Portfolio",
+            text: "Stats",
             link: "Portfolio.jsx"
         }, 
         
@@ -59,7 +60,12 @@ function Navbar() {
 
                     {navArray.map(({id, text, link})=>(
                         <li id={id} className="hover:scale-105 duration-200">
-                            <a href= {`${link}`} className="hover:text-yellow-500 duration-200 text-xl px-2">{text}</a>
+                            <Link to= {text}
+                                smooth= "true"
+                                duration= {500}
+                                activeClass="active"
+                                offset={-70}
+                            ><a href= {`${link}`} className="hover:text-yellow-500 duration-200 text-xl px-2">{text}</a></Link>    
                         </li>
                     ))}
 

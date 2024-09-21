@@ -6,6 +6,8 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Projects from './Components/Projects'
 import GithubStats from './Components/GithubStats'
+import Contact from './Components/Contact'
+import BottomNav from './Components/BottomNav'
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <About/>
       <Projects/>
       <GithubStats/>
+      <Contact />
+      <BottomNav />
     </>
   )
 }

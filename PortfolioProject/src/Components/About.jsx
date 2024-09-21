@@ -121,7 +121,7 @@ function About() {
   ];
 
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 mb-10 md:px-20">
+    <div name= "About" className="max-w-screen-2xl container mx-auto px-4 mb-10 md:px-20">
       <div className="h-20 rounded-sm flex items-center justify-center font-bold mb-4">
         <h1 className="text-5xl">About</h1>
       </div>

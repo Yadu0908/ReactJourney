@@ -52,7 +52,7 @@ function GithubStats() {
   }, []);
 
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 mb-2 mt-20 md:px-20">
+    <div name="Stats" className="max-w-screen-2xl container mx-auto px-4 mb-2 mt-20 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full h-full bg-neutral-900 mt-8 p-4 rounded-lg">
         <div className="flex flex-col items-center justify-center p-4 bg-neutral-800 rounded-lg">
           <img src={userData.avatar_url} alt={userData.name} className="w-16 h-16 rounded-full mb-2" />

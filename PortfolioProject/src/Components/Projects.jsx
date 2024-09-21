@@ -63,7 +63,7 @@ function Projects() {
 //   Github fetch
 
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 mb-2 mt-20 md:px-20">
+    <div name= "Project" className="max-w-screen-2xl container mx-auto px-4 mb-2 mt-20 md:px-20">
       <div className="h-20 rounded-sm flex items-center justify-center font-bold mb-2">
         <h1 className="text-5xl">Project's Featured</h1>
       </div>

@@ -49,3 +49,9 @@ On the second day, I created the `Home.jsx` component, focusing on styling and t
   - **List item into an array**:
 
   An, another concept i learned was, we can add my list item into my array by using `fregment` in my `jsx`. 
+
+
+React Scroll
+
+getform.io
+
