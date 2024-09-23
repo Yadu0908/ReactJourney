@@ -1,10 +1,10 @@
 import React from "react";
-import image1 from "../assets/Images/port/image1.png"; 
-import image2 from "../assets/Images/port/image2.png"; 
-import image3 from "../assets/Images/port/image3.png"; 
-import image5 from "../assets/Images/port/image5.png"; 
-import image4 from "../assets/Images/port/image4.png"; 
-import image6 from "../assets/Images/port/image6.png"; 
+import image1 from "../assets/Images/port/image1.png";
+import image2 from "../assets/Images/port/image2.png";
+import image3 from "../assets/Images/port/image3.png";
+import image5 from "../assets/Images/port/image5.png";
+import image4 from "../assets/Images/port/image4.png";
+import image6 from "../assets/Images/port/image6.png";
 
 function About() {
   const divArray = [
@@ -51,7 +51,6 @@ function About() {
       image: image3,
     },
     {
-
       id: 4,
       heading: "Projects",
       text: (
@@ -97,49 +96,48 @@ function About() {
       ),
       image: image5,
     },
-
-   {
-    id: 6,
-    heading: "UI/UX",
-    text: (
-      <>
-        <p className="mb-3">
-          My UI/UX experience includes:
-        </p>
-        <ul className="list-disc pl-5">
-          <li>User interface design</li>
-          <li>User experience research</li>
-          <li>Wireframing and prototyping</li>
-          <li>Responsive design principles</li>
-          <li>Usability testing</li>
-          <li>Tools: Figma, Sketch, Adobe XD</li>
-        </ul>
-      </>
-    ),
-    image: image6,
-}
+    {
+      id: 6,
+      heading: "UI/UX",
+      text: (
+        <>
+          <p className="mb-3">
+            My UI/UX experience includes:
+          </p>
+          <ul className="list-disc pl-5">
+            <li>User interface design</li>
+            <li>User experience research</li>
+            <li>Wireframing and prototyping</li>
+            <li>Responsive design principles</li>
+            <li>Usability testing</li>
+            <li>Tools: Figma, Sketch, Adobe XD</li>
+          </ul>
+        </>
+      ),
+      image: image6,
+    },
   ];
 
   return (
-    <div name= "About" className="max-w-screen-2xl container mx-auto px-4 mb-10 md:px-20">
-      <div className="h-20 rounded-sm flex items-center justify-center font-bold mb-4">
-        <h1 className="text-5xl">About</h1>
+    <div name="About" className="max-w-screen-2xl container mx-auto px-4 mb-10 md:px-20">
+      <div className="h-20 rounded-sm flex items-center justify-center font-bold mb-4 mt-5">
+        <h1 className="text-5xl ">About</h1>
       </div>
 
       <div className="h-full mb-28">
         <p className="text-xl text-justify">
-        Hello, I'm Yadu, a passionate programmer and web developer with experience in crafting dynamic web applications. My journey in technology has allowed me to work on various projects using Python, HTML, CSS, and JavaScript. From backend logic to creating responsive and user-friendly interfaces, I enjoy bringing ideas to life on the web.
-        I've built projects ranging from functional websites to interactive applications, always aiming to create efficient and maintainable code. Beyond these, I'm continuously exploring new technologies and frameworks to stay up-to-date with the latest industry trends.
+          Hello, I'm Yadu, a passionate programmer and web developer with experience in crafting dynamic web applications. My journey in technology has allowed me to work on various projects using Python, HTML, CSS, and JavaScript. From backend logic to creating responsive and user-friendly interfaces, I enjoy bringing ideas to life on the web.
+          I've built projects ranging from functional websites to interactive applications, always aiming to create efficient and maintainable code. Beyond these, I'm continuously exploring new technologies and frameworks to stay up-to-date with the latest industry trends.
 
-Whether it's tackling a complex problem or fine-tuning the front-end experience, I’m always up for a challenge and driven to learn and improve. Let's create something amazing together!
+          Whether it's tackling a complex problem or fine-tuning the front-end experience, I’m always up for a challenge and driven to learn and improve. Let's create something amazing together!
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-14">
+      <div className="grid grid-cols-2 xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 xs:gap-6 lg:gap-14">
         {divArray.map(({ id, heading, text, image }) => (
           <div
             key={id}
-            className="relative group h-80 overflow-hidden rounded-lg shadow-2xl"
+            className="relative group h-48 xs:h-64 sm:h-72 lg:h-80 overflow-hidden rounded-lg shadow-2xl"
           >
             {/* Image Layer with Lazy Loading and Object Contain */}
             <img
@@ -150,11 +148,11 @@ Whether it's tackling a complex problem or fine-tuning the front-end experience,
               style={{ transform: "translateZ(0)", willChange: "opacity" }}
             />
             {/* Text Layer */}
-            <div className="absolute inset-0 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out bg-gray-900 bg-opacity-70 p-6">
-              <h1 className="text-3xl font-semibold text-white mb-3">
+            <div className="absolute inset-0 flex flex-col opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out bg-gray-900 bg-opacity-70 p-2 xs:p-4 sm:p-5 lg:p-6">
+              <h1 className="text-lg xs:text-2xl sm:text-2xl lg:text-3xl font-semibold text-white mb-1 xs:mb-2 sm:mb-3">
                 {heading}
               </h1>
-              <p className="text-lg text-white">{text}</p>
+              <p className="text-sm xs:text-base sm:text-lg text-white">{text}</p>
             </div>
           </div>
         ))}

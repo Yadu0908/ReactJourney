@@ -9,7 +9,7 @@ function Contact(){
     return (
 
         <>
-            <div name= "Contact" className="flex items-center justify-center min-h-screen bg-gray-800">
+            <div name= "Contact" className="flex items-center justify-center min-h-auto bg-gray-800">
       <div className="max-w-2xl w-full px-4 py-8">
         <h1 className="text-3xl font-bold mb-4 text-center text-white">Contact me</h1>
         <p className="text-center text-gray-300 mb-8">Please fill out the form below to contact me</p>
