@@ -7,7 +7,7 @@ import Test from "./Test";
 import "../CssCode/Basic.css";
 import Review from "./review";
 import Navbar from "./Navbar";
-import Music from "./Music";
+
 
 function Basic() {
   return (
@@ -24,7 +24,7 @@ function Basic() {
         <Book />
         <PaperEffect />
         <Wishes className="wishesClass" />
-        <Review />
+        {/* <Review /> */}
         {/* <Music /> */}
         <Navbar />
       </div>
