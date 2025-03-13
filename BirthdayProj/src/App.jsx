@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Login from './Components/ReactCode/Login'
+import Basic from './Components/ReactCode/Basic'
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
      <main />
+     <Basic />
     </>
   )
 }

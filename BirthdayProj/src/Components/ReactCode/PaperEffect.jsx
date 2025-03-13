@@ -107,9 +107,9 @@ const PaperEffect = () => {
   return (
 
     <>
-     <h1 class="title">Khelegi ?? FreeFire</h1>
+     <h1 className="title">Khelegi ?? FreeFire</h1>
 
-      <h1 class="title"></h1>
+      <h1 className="title"></h1>
 
     <div className="mainDiv">
       <div className="paper heart"></div>

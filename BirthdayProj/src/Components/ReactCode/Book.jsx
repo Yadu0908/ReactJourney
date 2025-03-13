@@ -22,9 +22,9 @@ import "../CssCode/Book.css";
 const Book = () => {
   return (
     <>
-      <h1 class="title">Hehe, Tere pe kitab bhi likhi hai.</h1>
+      <h1 className="title">Hehe, Tere pe kitab bhi likhi hai.</h1>
 
-      <h1 class="title"></h1>
+      <h1 className="title"></h1>
 
       
 

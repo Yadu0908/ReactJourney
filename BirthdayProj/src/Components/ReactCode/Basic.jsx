@@ -5,9 +5,8 @@ import PaperEffect from "./PaperEffect";
 import Wishes from "./Wishes";
 import Test from "./Test";
 import "../CssCode/Basic.css";
-import Review from "./review";
+// import Review from "./review";
 import Navbar from "./Navbar";
-
 
 function Basic() {
   return (

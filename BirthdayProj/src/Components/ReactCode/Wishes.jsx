@@ -23,7 +23,7 @@ import image20 from "../../assets/images/kiran/kiran20.png"
 function Wishes() {
   return (
     <div className="container">
-       <h1 class="title">Teri khud ki self obsessed pics.</h1>
+       <h1 className="title">Teri khud ki self obsessed pics.</h1>
 
       <h1 class="title"></h1>
       <section className="collage">
